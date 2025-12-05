@@ -1,0 +1,41 @@
+.all{
+    width: 50vw;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 90vh;
+    line-height: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+padding: 20px;
+
+}
+.para{
+    padding-left: 2rem;
+    background-color: #f8f3e8;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding-bottom: 3rem;
+}
+label{
+    display: block;
+    margin-bottom: 0.1rem;
+}
+.acc{
+    padding-top: 2rem;
+
+}
+.crt{
+    display: block;
+    background-color: green;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+}
+button{
+    background-color:green;
+}
+button:hover{
+    background-color:palevioletred;
+}
