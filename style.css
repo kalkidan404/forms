@@ -1,11 +1,39 @@
+input {
+  border: 2px solid #ccc; /* base border */
+  outline: none;        /* remove default outline */
+  
+  border-radius: 6px;
+}
+body{
+   background-color:black;
+    font-family: "Bodoni Moda", serif;
+    margin-left: 9rem;
+}
+.con{
+        display: flex;
+        justify-content: space-around;
+        background-image: url(image/bgc.avif);
+        background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 75%;
+
+    }
 .all{
-    width: 50vw;
+    width: 60vw;
     max-width: 600px;
     margin: 0 auto;
-    height: 90vh;
+    height: 100vh;
     line-height: 2rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 padding: 20px;
+background-color: rgba(255, 255, 255, 0.8); /* white with opacity */
+  
+  border-radius: 10px;
+  
+  
+   
 
 }
 .para{
@@ -18,10 +46,14 @@ padding: 20px;
     padding-top: 1.5rem;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
     padding-bottom: 3rem;
+    border-color: #E5E7EB;
+    
+    
 }
 label{
     display: block;
     margin-bottom: 0.1rem;
+    border-color: #E5E7EB;
 }
 .acc{
     padding-top: 2rem;
@@ -29,13 +61,40 @@ label{
 }
 .crt{
     display: block;
-    background-color: green;
+    background-color: #596D48;
     font-size: 1.2rem;
     border-radius: 0.3rem;
 }
 button{
-    background-color:green;
+    background-color:#596D48;
 }
 button:hover{
-    background-color:palevioletred;
+    background-color:aqua;}
+    
+    .odin{
+        position: relative;
+        top: 13rem;
+        
+         background-color: rgba(0, 0, 0, 0.6);
+        height: 7rem;
+        width: 40rem;
+        margin-left: 3.6rem;
+         margin-left: -0.2vw;
+    }
+    .logo{
+        width: 5rem;
+        
+        position: relative;
+        left: 3rem;
+    }
+    input:invalid {
+  border: 2px solid red;      
+  background-color: #ffe6e6;  
+}
+input:focus:valid {
+  border-color: #1E90FF;
+  box-shadow: 0 0 5px rgba(30,144,255,0.5);
+}
+input {
+  border-color:#E5E7EB;
 }
